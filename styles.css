@@ -1,0 +1,23 @@
+body {
+    background:pink;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.assignment {
+    display: flex;
+    padding: 10px;
+    background: peachpuff;
+    margin: 10px;
+}
+
+.assignment img {
+    width: 280px;
+    padding: 10px;
+    background: pink;
+    margin: 10px;
+}
+
+h1 {
+    color:plum;
+    text-align: center;
+}
