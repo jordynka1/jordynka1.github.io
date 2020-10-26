@@ -3,8 +3,13 @@ body {
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
 
+.assignments{
+    display:flex;
+    flex-wrap:wrap;
+}
+
 .assignment {
-    display: flex;
+    width: 30%;
     padding: 10px;
     background: peachpuff;
     margin: 10px;
@@ -17,6 +22,8 @@ body {
     padding: 10px;
     background: pink;
     margin: 10px;
+    display:block;
+    margin:auto;
 }
 
 h1 {
@@ -26,4 +33,8 @@ h1 {
 
 .assignment a:hover {
     color: palevioletred;
+}
+
+h2 {
+    text-align: center;
 }
